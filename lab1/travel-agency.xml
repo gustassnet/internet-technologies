@@ -1,0 +1,44 @@
+<travel-agency xmlns="http://www.example.com/travel-agency" xmlns:ta="http://www.example.com/travel-agency">
+    <ta:travel>
+        <destination>Egypt</destination>
+        <departures> 
+            <date>2026-10-05</date>
+            <date>2026-10-15</date>
+            <date>2026-10-25</date>
+        </departures>
+        <price currency="EUR"> 2500.00 </price>
+        <ta:excursions>
+            <excursion type="group">
+                <name>Pyramids of Giza Tour</name>
+                <duration unit="hours"> 6 </duration>
+                <price currency="EUR"> 100.00 </price>
+            </excursion>
+            <excursion type="group">
+                <name>Nile River Cruise</name>
+                <duration unit="days"> 1 </duration>
+                <price currency="EUR"> 500.00 </price>
+            </excursion>
+        </ta:excursions>
+    </ta:travel>
+    <ta:travel>
+        <destination>Italy</destination>
+        <departures>
+            <date>2026-11-10</date>
+            <date>2026-11-20</date>
+            <date>2026-11-30</date>
+        </departures>
+        <price currency="EUR"> 3000.00 </price>
+        <ta:excursions>
+            <excursion type="individual">
+                <name>Rome City Tour</name>
+                <duration unit="hours"> 4 </duration>
+                <price currency="EUR"> 200.00 </price>
+            </excursion>
+            <excursion type="group">
+                <name>Venice Gondola Ride</name>
+                <duration unit="days"> 1 </duration>
+                <price currency="EUR"> 150.00 </price>
+            </excursion>
+        </ta:excursions>
+    </ta:travel>
+</travel-agency>
