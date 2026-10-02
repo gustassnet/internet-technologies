@@ -1,0 +1,90 @@
+{
+  "travel-agency": {
+    "travel": [
+      {
+        "destination": "Egypt",
+        "departures": {
+          "date": [
+            "2026-10-05",
+            "2026-10-15",
+            "2026-10-25"
+          ]
+        },
+        "price": {
+          "currency": "EUR",
+          "value": 2500.00
+        },
+        "excursions": {
+          "excursion": [
+            {
+              "type": "group",
+              "name": "Pyramids of Giza Tour",
+              "duration": {
+                "unit": "hours",
+                "value": 6
+              },
+              "price": {
+                "currency": "EUR",
+                "value": 100.00
+              }
+            },
+            {
+              "type": "group",
+              "name": "Nile River Cruise",
+              "duration": {
+                "unit": "days",
+                "value": 1
+              },
+              "price": {
+                "currency": "EUR",
+                "value": 500.00
+              }
+            }
+          ]
+        }
+      },
+      {
+        "destination": "Italy",
+        "departures": {
+          "date": [
+            "2026-11-10",
+            "2026-11-20",
+            "2026-11-30"
+          ]
+        },
+        "price": {
+          "currency": "EUR",
+          "value": 3000.00
+        },
+        "excursions": {
+          "excursion": [
+            {
+              "type": "individual",
+              "name": "Rome City Tour",
+              "duration": {
+                "unit": "hours",
+                "value": 4
+              },
+              "price": {
+                "currency": "EUR",
+                "value": 200.00
+              }
+            },
+            {
+              "type": "group",
+              "name": "Venice Gondola Ride",
+              "duration": {
+                "unit": "days",
+                "value": 1
+              },
+              "price": {
+                "currency": "EUR",
+                "value": 150.00
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
